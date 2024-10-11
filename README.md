@@ -9,7 +9,7 @@ Connect with me:
 www.linkedin.com/in/bat-orgil-erdenebat
 
 Languages and Tools:
-angular azure bootstrap c css3 dart express firebase flutter go html5 ionic java javascript mssql mysql nodejs oracle pandas php python react sass tensorflow typescript
+java javascript python 
 
 <!---
 BatOrgil7/BatOrgil7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
