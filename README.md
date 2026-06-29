@@ -12,7 +12,7 @@
   <a href="mailto:batorgilrb@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://github.com/BatOrgil7/BatOrgil7/blob/main/resume.pdf">
+  <a href="https://github.com/BatOrgil7/Resume/blob/main/resume/Bat_Orgil_Erdenebat_Resume.pdf">
   <img src="https://img.shields.io/badge/Resume-2A9D8F?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume"/>
   </a>
 </p>
