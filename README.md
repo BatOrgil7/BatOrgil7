@@ -1,15 +1,17 @@
-- 👋 Hi, I’m Bat-Orgil
-- 👀 I’m interested in AI
-- 🔭 I’m currently seeking Software Engineering, Co-op/Internships
-- 🌱 I’m currently learning Java, Python, C++, Machine Learning, AI
-- 💞️ I’m looking to collaborate on AI related projects
-- 📫 How to reach me batorgilrb@gmail.com
+👋 Hi, I'm Bat!
+CS & Math @ University of Mississippi
 
-Connect with me:
-www.linkedin.com/in/bat-orgil-erdenebat
+🛠 Tech Stack
+💻 Languages: Python · Java · C++ · TypeScript · JavaScript · SQL
 
-Languages and Tools:
-java javascript python 
+🧠 AI/ML Focus: Machine Learning · Deep Learning · Agentic AI · Physical AI · Neural Networks · LLMs · Data Processing · Computer Vision
+
+☁️ Tools & Platforms: GitLab · Google Cloud Platform (GCP) · Git · Overleaf · Figma · Jira · Tableau
+
+📂 Featured Projects
+
+📫 Connect with me!
+LinkedIn · Email: batorgilrb@gmail.com
 
 <!---
 BatOrgil7/BatOrgil7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
