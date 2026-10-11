@@ -30,27 +30,9 @@
 
 I build machine learning systems that have to survive contact with production.
 
-I'm a senior at the **University of Mississippi** studying Computer Science with a Data Science emphasis and a Math minor, graduating May 2027. Originally from Mongolia 🇲🇳, currently in **Seoul** as a Machine Learning Engineering Intern at **PotatoNet**, where most of my work sits between graph databases, deep learning, and the deployment plumbing that makes either one useful.
+I'm a senior at the **University of Mississippi** studying Computer Science with a Data Science emphasis and a Math minor, graduating May 2027.
 
 My longer-term interest is **embodied AI and robot learning**, which is to say the version of this problem where the model has to act, not just predict. Everything I build keeps circling the same question, which is what breaks when a model leaves the notebook.
-
-Also a **Break Through Tech AI Studio Fellow** (selected from 4,000+ applicants nationwide) and a **Teaching Assistant** for 200+ students in Data Structures and Algorithms.
-
----
-
-<!-- =========================================================
-     🔭  CURRENTLY
-     ========================================================= -->
-## 🔭 What I'm Working On
-
-> [!NOTE]
-> 🤖 **Language-conditioned robot manipulation** for my senior capstone, built on Hugging Face's [LeRobot](https://github.com/huggingface/lerobot). Aiming at a workshop submission.
->
-> 🔗 **Graph-based threat intelligence @ PotatoNet**, scaling attacker-family clustering across a live Neo4j store.
->
-> 📚 **Learning**: Cypher and graph algorithms, vision-language-action models, and Rust for the parts of the stack Python shouldn't own.
-
----
 
 <!-- =========================================================
      💼  FEATURED WORK
@@ -130,36 +112,6 @@ Turning raw malicious JavaScript into named attacker "families" so analysts can 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-<!-- =========================================================
-     🏆  ACHIEVEMENTS
-     ========================================================= -->
-## 🏆 Achievements & Certifications
-
-🎓 **Break Through Tech AI Studio Fellow** · selected from 4,000+ applicants nationwide for a one-year applied ML fellowship
-
-📜 **Machine Learning Foundations** e-Certificate · Cornell University via Break Through Tech
-
-📜 **Career Essentials in Generative AI** · Microsoft & LinkedIn
-
-💰 **Freeman Grant Recipient** · $9,000
-
-⭐ **Chancellor's Honor Roll** · Fall 2024, Spring 2025 · GPA 3.78
-
----
-
-<!-- =========================================================
-     🎾  BEYOND THE CODE
-     ========================================================= -->
-## 🎾 Beyond the Code
-
-👨‍🏫 **Teaching Assistant & CS Tutor** for 200+ students across four courses, plus 50+ one-on-one mentees. Teaching is the fastest way I've found to locate the holes in my own understanding.
-
-🎾 Tennis · 🏋️ In the gym most mornings · 📈 Markets and valuation modeling as a hobby · 🇰🇷 Learning Seoul one subway line at a time
-
----
 
 <!-- =========================================================
      📊  GITHUB STATS
