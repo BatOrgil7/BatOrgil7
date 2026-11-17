@@ -39,6 +39,26 @@ My longer-term interest is **embodied AI and robot learning**, which is to say t
      ========================================================= -->
 ## 💼 Featured Work
 
+### ⚖️ Automated Contract Review & Risk Triage · *Accenture AI Studio, Break Through Tech*
+
+Finding the clauses that actually carry risk in commercial contracts, so a legal reviewer knows which document to open first instead of reading all of them.
+
+![Contracts](https://img.shields.io/badge/510-commercial_contracts-6E40C9?style=flat-square)
+![Spans](https://img.shields.io/badge/13.8K-expert_annotated_spans-6E40C9?style=flat-square)
+![Categories](https://img.shields.io/badge/34-clause_categories-6E40C9?style=flat-square)
+![F1](https://img.shields.io/badge/0.717_→_0.750-macro--F1-6E40C9?style=flat-square)
+
+- Designed the **offset-preserving chunking strategy** the team's pipeline runs on — 510-token sliding windows with 128-token overlap — keeping character offsets aligned to the source text so every clause prediction stays auditable, with **97.8%** of annotated clauses intact inside a single chunk
+- **Disproved the team's leading hypothesis** for classifier misses (clauses split across chunk boundaries: correlation **+0.004**, only 2% of spans split) and isolated positive training volume as the real driver (**+0.715**), redirecting the team away from a costly chunking rewrite
+- Built **5-fold cross-validated threshold tuning** split by contract, scoring every training contract with a model that never saw it — lifting held-out macro-F1 from **0.717 to 0.750** with no retraining, and the weakest clause category **5x** (0.091 → 0.500)
+- Showed **per-category thresholds overfit** on low-support categories (as few as 27 positive contracts) and shipped a single global cutoff instead
+
+`Python` · `PyTorch` · `Hugging Face Transformers` · `DistilRoBERTa` · `Pandas` · `scikit-learn`
+
+*Five-person team project on the [CUAD](https://www.atticusprojectai.org/cuad) corpus — the work above is my own commits. [Repo →](https://github.com/Break-Through-Tech/Accenture-1Q-contract-review-challenge)*
+
+---
+
 ### 🔗 Graph Threat Intelligence Platform · *PotatoNet Co., Ltd., Seoul*
 
 Turning raw malicious JavaScript into named attacker "families" so analysts can chase infrastructure instead of individual scripts.
@@ -63,9 +83,10 @@ Turning raw malicious JavaScript into named attacker "families" so analysts can 
 
 | Project | What It Does | Tech |
 | :--- | :--- | :--- |
-| **[Census Income Classification](https://github.com/BatOrgil7/census-income-ml-pipeline)** 📌 | End-to-end ML pipeline on 32K+ census records. Tuned on F1 rather than accuracy to handle class imbalance, found a 3-layer Keras net barely beat logistic regression (0.70 vs 0.68), and shipped the simpler model. **Audited coefficients for fairness, surfaced a discrimination risk, and recommended against lending deployment.** | `Python` `Scikit-learn` `Keras` `Pandas` |
+| **[Census Income Classification](https://github.com/BatOrgil7/census-income-ml-pipeline)** 📌 | End-to-end ML pipeline on 32K+ census records. Tuned on F1 rather than accuracy to handle class imbalance, found a 3-layer Keras net beat logistic regression by only 0.02 F1 (0.70 vs 0.68), too small to justify the added complexity, so shipped the simpler interpretable model. **Audited coefficients for fairness, surfaced a discrimination risk, and recommended against lending deployment.** | `Python` `Scikit-learn` `Keras` `Pandas` |
 | **[Streaming Evaluation Protocol for CSLR](https://github.com/BatOrgil7/signstream-eval)** 🔬 | A standardized evaluation protocol for streaming sign language recognition, adapting latency and stability metrics from streaming ASR and simultaneous MT to fill a gap left by offline-only benchmarks. Includes a fault-tolerant landmark extraction pipeline over PHOENIX-2014T. | `Python` `MediaPipe` `Multiprocessing` |
 | **[Real-Time ASL Translation](https://github.com/BatOrgil7/ASL-Translation-Capstone)** 🤟 | Live ASL recognition from webcam input, built for interactive frame rates on consumer hardware rather than batch inference. | `Python` `TensorFlow` `OpenCV` `MediaPipe` |
+| **[Multi-Modal RAG Chatbot](https://github.com/BatOrgil7/multi-modal-ai-chatbot-rag)** 🧠 | Gemini-powered agent with persistent long-term memory: a lightweight secondary model emits schema-enforced JSON add/update/delete operations over SQLite, classifying entries as semantic, procedural, or episodic and resolving contradictions in place rather than duplicating records. RAG over a document store and the memory layer, with multimodal image and document input. | `Python` `Gemini` `SQLite` `Streamlit` `Docker` |
 | **[CS2 Esports Statistics Tracker](https://github.com/BatOrgil7/cs2-esports-statistics-tracker)** 📊 | Normalized relational schema for pro Counter-Strike teams, players, tournaments, and match performance, designed around the queries analysts actually run. | `SQL` `Database Design` |
 
 <sub>Also on my profile: an e-commerce storefront in TypeScript/React and a desktop note-taking app in Python.</sub>
