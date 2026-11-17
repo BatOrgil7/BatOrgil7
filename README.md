@@ -87,6 +87,7 @@ Turning raw malicious JavaScript into named attacker "families" so analysts can 
 | **[Streaming Evaluation Protocol for CSLR](https://github.com/BatOrgil7/signstream-eval)** 🔬 | A standardized evaluation protocol for streaming sign language recognition, adapting latency and stability metrics from streaming ASR and simultaneous MT to fill a gap left by offline-only benchmarks. Includes a fault-tolerant landmark extraction pipeline over PHOENIX-2014T. | `Python` `MediaPipe` `Multiprocessing` |
 | **[Real-Time ASL Translation](https://github.com/BatOrgil7/ASL-Translation-Capstone)** 🤟 | Live ASL recognition from webcam input, built for interactive frame rates on consumer hardware rather than batch inference. | `Python` `TensorFlow` `OpenCV` `MediaPipe` |
 | **[Multi-Modal RAG Chatbot](https://github.com/BatOrgil7/multi-modal-ai-chatbot-rag)** 🧠 | Gemini-powered agent with persistent long-term memory: a lightweight secondary model emits schema-enforced JSON add/update/delete operations over SQLite, classifying entries as semantic, procedural, or episodic and resolving contradictions in place rather than duplicating records. RAG over a document store and the memory layer, with multimodal image and document input. | `Python` `Gemini` `SQLite` `Streamlit` `Docker` |
+| **[Hyntor](https://github.com/BatOrgil7/Hyntor)** 📚 | Responsible-AI study platform for web and mobile: an AI study partner with shared per-course memory, built so students get help that is scoped to their course rather than open-ended answers. | `TypeScript` `React` `AI` |
 | **[CS2 Esports Statistics Tracker](https://github.com/BatOrgil7/cs2-esports-statistics-tracker)** 📊 | Normalized relational schema for pro Counter-Strike teams, players, tournaments, and match performance, designed around the queries analysts actually run. | `SQL` `Database Design` |
 
 <sub>Also on my profile: an e-commerce storefront in TypeScript/React and a desktop note-taking app in Python.</sub>
@@ -140,13 +141,21 @@ Turning raw malicious JavaScript into named attacker "families" so analysts can 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BatOrgil7&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BatOrgil7&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages"/>
+  <img src="https://streak-stats.demolab.com/?user=BatOrgil7&hide_border=true&theme=tokyonight" alt="GitHub contribution streak"/>
 </p>
 
+<!-- The two github-readme-stats cards (stats + top languages) are commented out:
+     the public instance at github-readme-stats.vercel.app is currently returning
+     503 DEPLOYMENT_PAUSED, so both rendered as broken images.
+     To restore them, deploy your own instance (5 min, free) and swap the host:
+       1. Fork https://github.com/anuraghazra/github-readme-stats
+       2. Import the fork into Vercel, add env var PAT_1 = a GitHub personal access token
+       3. Replace the host below with your-instance.vercel.app
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BatOrgil7&hide_border=true&theme=tokyonight" alt="GitHub streak"/>
+  <img height="165" src="https://YOUR-INSTANCE.vercel.app/api?username=BatOrgil7&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight" alt="GitHub stats"/>
+  <img height="165" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=BatOrgil7&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages"/>
 </p>
+-->
 
 ---
 
